@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/ae58912594.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -27,35 +28,41 @@
       <div class="header__header-column">
         <h1 class="header__title">Chats</h1>
       </div>
-      <div class="header__header-column"></div>
-      <span class="header__icon">
-        <i class="fas fa-search"></i>
-      </span>
-      <span class="header__icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="header__icon">
-        <i class="fas fa-cog"></i>
-      </span>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
     </header>
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-          <div class="chat__column">
-             <img class="chat__avatar g-avatar" src="images/mom_avatar.jpg"
-            <div class="chat__content"> 
-              <span class="chat__username">
-                엄마
-              </span>
-              <span class="chat__preview">
-                왜 안와
-              </span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img
+                  src="images/mom_avatar.jpg"
+                  class="g-avatar friend__avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lennart
+                  </span>
+                  <span class="friend__bottom-text">
+                    Soojin, Pause ist vorbei
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">Montag 4</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
           </a>
         </li>
       </ul>
@@ -69,8 +76,9 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="fas fa-comment"></i
-          ></a>
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
+          </a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
