@@ -8,13 +8,15 @@
 @import "find.css";
 @import "more.css";
 @import "setting.css";
+@import "chat.css";
 
 * {
   box-sizing: border-box;
   text-decoration: none;
 }
 
-body {
+body,
+.chats-body .status-bar {
   background-color: white;
   padding: 10px 20px;
   color: #020202;
