@@ -4,13 +4,13 @@
 }
 
 .settings__setting .settings__icon {
-  font-size: 20px;
+  font-size: 19px;
   margin-right: 20px;
 }
 
 .settings__setting .settings__title {
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 19px;
+  font-weight: 350;
 }
 
 .settings .settings__setting {
